@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap");
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.font-dm {
+    font-family: "DM Serif Display", serif;
+}
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    background: hsla(127, 8%, 22%, 1);
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    align-items: end;
+}
+
+.navbar-left {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.logo-text {
+    font-size: xx-large;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.nav-links li a {
+    padding-left: 0;
+    color: hsla(39, 93%, 95%, .7);
+    text-decoration: none;
+}
+
+.btn {
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    background: hsla(35, 87%, 49%, 1);
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.content{
+    margin-top: 5rem;
+    padding-inline: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.greeting{
+    font-size: larger;
+    color: hsla(39, 93%, 95%, .9);
+    padding-bottom: 1rem;
+}
+.message{
+    font-size: 6rem;
+    color: white;
+    width: 80%;
+    font-weight: 600;
+}
+
+.about-content{
+    background: linear-gradient(hsla(127, 8%, 22%, 1) 50%, hsla(39, 93%, 95%, 1) 50%);
+    height: 100%;
+}
+
+.about-message{
+    padding-top: 5rem;
+    font-size: 6rem;
+    color: white;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about-text{
+    margin-top: 12rem;
+    width: 60%;
+    margin-inline: auto;
+    text-align: center;
+    font-size: larger;
+    line-height: 2rem;
+}
+
+.project-content{
+    background: hsla(39, 93%, 95%, 1);
+    height: 100%;
+    padding-top: 2rem;
+}
+.project-text{
+    text-align: center;
+    font-size: 5rem;
+    line-height: 0;
+}
+
+.project-content ul{
+    font-size: large;
+    width: 70%;
+    margin-inline: auto;
+    margin-top: 8rem;
+}
